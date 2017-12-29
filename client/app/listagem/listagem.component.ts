@@ -22,5 +22,13 @@ export class ListagemComponent {
 				console.log( erro );
 			}
 		);
+
+		/*http
+		.delete( 'v1/fotos/3a7o7wal825mrTet' )
+		.subscribe( ok => { console.log( ok ) } ,
+			erro => {
+				console.log( erro );
+			}
+		);*/
 	}
 }
